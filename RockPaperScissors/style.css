@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #FEFAE0;
+}
+
+body {
+    text-align: center;
+    background-color: #5F6F52;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.choice {
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+    cursor: pointer;
+}
+
+.choices {
+    height: 40vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 18vmin;
+    width: 18vmin;
+    object-fit: cover;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+    font-size: 8vh;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    width: 60vmin;
+    margin-top: 5vmin;
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+}
+
+.result {
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+}
+
+#action-message {
+    font-size: 4vmin;
+}
+
+.reset {
+    margin: 2vmin;
+    width: 18vmin;
+    height: 6vmin;
+    padding: 1vmin;
+    font-size: 2.5vmin;
+    background-color: #B99470;
+    border: 0.0125rem solid #A9B388;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5vmin rgba(95, 111, 82 0.5);
+    cursor: pointer;
+}
